@@ -18,6 +18,17 @@ backend/*.sqlite3
 backend/chroma/
 backend/vectorstore/
 
+# Alembic cache
+backend/alembic/__pycache__/
+
+# Python cache
+**/__pycache__/
+*.pyo
+*.pyd
+
+# PyCharm
+.idea/
+
 # ==================================
 # Frontend (Next.js)
 # ==================================
